@@ -8,7 +8,7 @@ const ChatMessage = ({message}) => {
         <div className={`message ${messageClass}`}>
             <img src={photoURL || "https://cdn.iconscout.com/icon/free/png-256/firebase-1-282796.png"} alt="calme toi frere"/>
             <p>{text}</p>
-            <p>by {displayName}</p>
+            <p className="author">{displayName}</p>
         </div>
     )
 }

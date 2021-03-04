@@ -1,0 +1,30 @@
+.message{
+    height:75px;;
+    display:flex;
+    margin: 1rem 1rem 0 0;
+    padding-top: 1.5rem;
+    img{
+        border-radius:50%;
+        width:35px;
+        height:35px;
+        margin-top:inherit;
+    }
+    p{
+        font-size:1.5rem;
+        margin-top:inherit;
+    }
+    .author{
+        font-size:0.5rem;
+        margin-top:auto;
+        color:black;
+    }
+}
+.sent{
+    flex-direction:row-reverse;
+    img{
+        margin-left:1rem;
+    }
+    p{
+        margin-left:1rem;
+    }
+}

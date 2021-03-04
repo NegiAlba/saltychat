@@ -5,7 +5,7 @@ import SignIn from './components/SignIn'
 import SignOut from './components/SignOut'
 import Chat from './components/Chat'
 
-import './App.css';
+import './assets/sass/base.scss';
 
 function App() {
 
